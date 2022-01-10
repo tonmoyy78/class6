@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.starter-page {
+    background-image: url(./picture/wp9764105.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    background-size: auto;
+}
+
+.heading{
+    margin-top: 100px;
+    margin-left: 200px;
+    font-family: 'Anton', sans-serif;
+    text-decoration-style: solid;
+
+}
+
+.paragraph{
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.email-form{
+    margin-top: 30px;
+    margin-left: 200px;
+
+}
+
+.email-form form input{
+    width: 30%;
+    padding: 15px;
+    border-radius: 50px;
+
+}
+
+.email-form form button{
+    width: 12%;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.email-form form button:hover{
+
+    background-color: aquamarine;
+    transition: ease-in-out 0.3s;
+
+}
+
+.email-form form input:focus{
+    background-color: aquamarine
+
+}
